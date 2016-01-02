@@ -1,0 +1,28 @@
+<div class="tl">
+	<div class="sttl mbn">
+		<h2><!--{if $keyword}-->{lang search_result_keyword}<!--{else}-->{lang search_result}<!--{/if}--></h2>
+	</div>
+	<!--{if empty($grouplist)}-->
+		<p class="emp xs2 xg2">{lang search_nomatch}</p>
+	<!--{else}-->
+		<div class="slst fl gl cl">
+			<!--{loop $grouplist $group}-->
+				<div class="flc cl">
+					<div class="icn">
+						<a href="forum.php?mod=group&fid=$group[fid]" target="_blank"><img src="$group[icon]" /></a>
+					</div>
+					<dl>
+						<dt><a href="forum.php?mod=group&fid=$group[fid]" target="_blank">$group[name]</a></dt>
+						<dd class="i">
+							<span><p>$group[membernum]</p>{lang member}</span>
+							<em><p>$group[threads]</p>{lang threads}</em>
+						</dd>
+						<dd>$group[description]</dd>
+					</dl>
+				</div>
+				<p class="ln"></p>
+			<!--{/loop}-->
+		</div>
+		<!--{if !empty($multipage)}--><div class="bm pgs cl">$multipage</div><!--{/if}-->
+	<!--{/if}-->
+</div>

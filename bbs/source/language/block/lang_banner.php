@@ -1,0 +1,19 @@
+<?php
+
+/**
+ *      [Discuz!] (C)2001-2099 Comsenz Inc.
+ *      This is NOT a freeware, use is subject to license terms
+ *
+ *      $Id: lang_banner.php 6757 2010-03-25 09:01:29Z cnteacher $
+ */
+
+$lang = array
+(
+	'banner_pic' => 'Í¼Æ¬µØÖ·',
+	'banner_width' => 'Í¼Æ¬¿í¶È',
+	'banner_height' => 'Í¼Æ¬¸ß¶È',
+	'banner_url' => 'Í¼Æ¬Á´½Ó',
+	'banner_text' => 'Í¼Æ¬½éÉÜ',
+);
+
+?>

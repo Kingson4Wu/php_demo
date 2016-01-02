@@ -1,0 +1,20 @@
+/*
+[name]ͥԺ[/name]
+Powered by Ucenter Home
+*/
+
+body { background: #000 url(images/bg.png) repeat-x 0 30px; }
+
+#ct { color: #FFF; }
+#ct a { color: #8DBE00; }
+
+#hd { background: url(images/header.png) no-repeat 50% 100%; }
+	#hd h2 { color: #FFF; }
+#nv { bottom: auto; left: auto; top: 30px; right: 0; }
+
+#ct, .n, .w { background: transparent none !important; }
+
+.block .title { padding: 0 10px; border-bottom: none; background: #301E10; }
+	.block .title, .block .title a { color: #FFF; }
+
+.bbda { border-bottom-color: #301E10; }

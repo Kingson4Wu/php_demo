@@ -1,0 +1,19 @@
+/*
+[name]Ä¬ÈÏ·ç¸ñ[/name]
+Powered by Discuz! X
+*/
+
+body { background: #F8F8F8; }
+a { color: #069; }
+#hd { margin-top: 30px; width: 948px; height: 133px; border: 1px solid #D3DFDF; background: #FAFAFA url(images/header.jpg) no-repeat 100% 0; }
+	#hd h2 { padding: 35px 0 0 30px; color: #069; font-size: 20px; }
+	#nv { bottom: 10px; }
+		#nv li { padding-right: 10px; background: none; opacity: 1; foilter: alpha(opacity=100); font-size: 14px; }
+		#nv a, #nv a:visited { color: #069; }
+.block { border: 1px solid #DDD; background: #FFF; }
+	.block .title { border-bottom: 1px solid #DDD; background: #EAF1F2 url(images/title.png) repeat-x 0 0; }
+#ft { border-top: 1px solid #CCC; }
+
+.mn { display: inline; margin-left: 10px; width: 760px !important; border: 1px solid #DDD; background: #FFF; }
+	.mt { margin: -10px -15px 10px; padding: 0 10px; height: 32px; border-bottom: 1px solid #DDD; background: #EAF1F2 url(images/title.png) repeat-x 0 0; line-height: 32px; font-size: 12px; }
+.sd { display: inline; margin-right: 10px; min-height: 0; border: 1px solid #DDD; background: #FFF; }
